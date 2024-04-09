@@ -86,5 +86,7 @@ Our application uses JWT (JSON Web Tokens) for authentication. Upon successful l
 - Redux: State management library for managing application state.
 - JWT: JSON Web Tokens for secure authentication.
 
+## Hosted_Url: https://notes-app-front-end-mocha.vercel.app/
+## Video Demo: https://www.loom.com/share/ba4b4393eed64845af802531db8dbcbc?sid=04193a9b-f644-4184-a03c-934db05a1744
 
 Thank you for using my Notes Application! If you have any questions or feedback, please don't hesitate to reach out to us. Happy note-taking!
