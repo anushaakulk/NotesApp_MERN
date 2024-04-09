@@ -9,7 +9,7 @@ const app = express()
 app.use(cors(
     {
         origin: ["https://notes-app-front-end-mocha.vercel.app"],
-        methods:["POST","GET"],
+        methods:["POST","GET","PATCH","DELETE"],
         credentials:true
     }
 ))
