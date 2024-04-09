@@ -41,7 +41,6 @@ export default function NotesPage() {
   }
   const handleEditorContentSave = (html)=>{
     setBody(html)
-    createNote()
   }
 
   return (
@@ -95,9 +94,9 @@ export default function NotesPage() {
             </ModalBody>
 
             <ModalFooter>
-              {/* <Button colorScheme="blue" mr={3} onClick={createNote}>
+              <Button colorScheme="blue" mr={3} onClick={createNote}>
                 Create
-              </Button> */}
+              </Button>
               <Button onClick={onClose}>Cancel</Button>
             </ModalFooter>
           </ModalContent>
