@@ -21,6 +21,14 @@ To set up and run the application locally, follow these steps:
     ```
     cd Notes_Backend
     ```
+  - Create a `.env` file:
+    - Create a new file named `.env` in the `Notes_Backend` directory.
+    - Inside the `.env` file, add the following environment variables:
+      ```
+      mongoUrl = "your_mongodb_atlas_url"
+      port = 4000
+      ```
+    - Replace `your_mongodb_atlas_url` with your MongoDB Atlas URL.
   - Install backend dependencies:
     ```
     npm install
