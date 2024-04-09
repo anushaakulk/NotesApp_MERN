@@ -21,6 +21,21 @@ To set up and run the application locally, follow these steps:
     ```
     cd Notes_Backend
     ```
+  - Open the `index.js` file in the `Notes_Backend` directory in your code editor.
+    - Locate the CORS middleware setup:
+      ```javascript
+      app.use(cors(
+          {
+              origin: ["https://notes-app-front-end-mocha.vercel.app"],
+              methods:["POST","GET","PATCH","DELETE"],
+              credentials:true
+          }
+      ))
+      ```
+    - Change it to use the default options:
+      ```javascript
+      app.use(cors())
+      ```
   - Install backend dependencies:
     ```
     npm install
@@ -36,6 +51,9 @@ To set up and run the application locally, follow these steps:
     ```
     cd Notes_Frontend
     ```
+  - Update BASE_URL:
+    - Open the `src/constants/config.js` file in your code editor.
+    - Change the value of `BASE_URL` to `"http://localhost:4000"`.
   - Install frontend dependencies:
     ```
     npm install
